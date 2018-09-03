@@ -1,5 +1,7 @@
 package string;
 
+import java.util.ArrayList;
+
 public class String01 {
     
     public static void main(String[] args) {
@@ -27,6 +29,15 @@ public class String01 {
 
         System.out.println(s.substring(0, 5).equals("hello"));
         System.out.println(t.toLowerCase().equals(s));
+        
+        System.out.println("------------------");
+        s = "hello";
+        System.out.println(s instanceof String);
+        
+        Object s1 = "hello";
+        System.out.println(s1 instanceof String);
+        System.out.println(s1 instanceof ArrayList);
+
     }
 
 }
