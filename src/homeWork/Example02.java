@@ -4,27 +4,13 @@ package homeWork;
 public class Example02 {
 
     static int getVowelCount(String s) {
-    	
+    
     	int count =0 ;
     	for (int i =0 ; i <s.length(); i++) {
     		
     		switch (s.charAt(i)) {
-			case 'a':
-				count++;
-				break;
-			case 'e':
-				count++;
-				break;
-		
-			case 'i':
-				count++;
-				break;
-		
-			case 'o':
-				count++;
-				break;
-		
-			case 'u':
+			case 'a': case 'A': case 'e': case 'E': case 'o': case 'O':
+			case 'u': case 'U': case 'i': case 'I':
 				count++;
 				break;
 				
