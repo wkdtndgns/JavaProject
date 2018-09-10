@@ -1,7 +1,8 @@
 package casting;
 
 import java.util.Date;
-import Person.*;
+
+import person.*;
 
 public class ObjArray4 {
     

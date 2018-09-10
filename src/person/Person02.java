@@ -1,4 +1,5 @@
-package Person;
+package person;
+
 
 class Family {
     Person father, mother;
