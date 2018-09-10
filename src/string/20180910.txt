@@ -1,0 +1,6 @@
+static 메소드와 instance 메소드의 차이는 다음과 같다.
+* instance 메소드에서는 this 키워드를 사용할 수 있고, 
+* static 메소드에서는 this 키워드를 사용할 수 없다.
+
+* instance 메소드를 호출할 때에는 this 객체를 명시해 주어야 한다.
+* static 메소드를 호출할 때에는 this 객체를 명시하지 않아도 된다
