@@ -10,6 +10,15 @@ public class GradeTest {
         for (Grade grade : myGrades)
             sum += grade.getValue();
         System.out.printf("sum=%.2f  average=%.2f\n", sum, sum / myGrades.length);
+        
+      GradeC[] arrGc = { GradeC.Ap, GradeC.A, GradeC.Bp, GradeC.B, GradeC.Ap};
+      
+      sum = 0;
+      for (GradeC grade : arrGc)
+          sum += grade.getValue();
+      System.out.printf("sum=%.2f  average=%.2f\n", sum, sum / arrGc.length);
+      
+    
     }
 
 }
