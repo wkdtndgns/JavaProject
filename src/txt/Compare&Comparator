@@ -1,0 +1,6 @@
+Compare은 순서 기준이 한 개인 경우 
+
+Comparator 은 순서 기준이 여러 개인 경우 
+
+Comparator은 유지보수가 더 편리함  그렇기 떄문에 기준이 많으면 Comparator은 사용 
+
