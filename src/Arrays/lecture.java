@@ -12,8 +12,8 @@ public class lecture {
 		
 		Arrays.sort(a);
 		
-		Arrays.binarySearch(a, 3);
-		
+		int index = Arrays.binarySearch(a, 8);
+		System.out.println(index);
 	
 	}
 }
