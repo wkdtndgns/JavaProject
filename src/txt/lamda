@@ -1,0 +1,2 @@
+inner class의 객체를 생성할 수 있는 곳은 ? 
+outter class의 instance mehtod 에서만 
